@@ -1,0 +1,229 @@
+@import "reset.css";
+
+.limiter {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 5rem;
+  background-color: var(--header);
+}
+
+#ponto {
+  position: absolute;
+  top: 2.7rem;
+  left: 8.5rem;
+  background: var(--body);
+  width: 8px;
+  height: 8px;
+  border-radius: 16px;
+}
+
+#logo {
+  cursor: pointer;
+  height: 100%;
+  padding: 1rem;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.icon {
+  padding: 0.5rem;
+}
+
+#user {
+  width: 3rem;
+  cursor: pointer;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem;
+  padding-top: 2rem;
+}
+
+.limiter button {
+  font-size: 0.8rem;
+  text-align: left;
+  padding-right: 1rem;
+}
+
+.actions {
+  display: grid;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.5rem;
+}
+
+.btn:hover {
+  background: black;
+  color: var(--body);
+}
+
+.cartao {
+  min-width: 600px;
+  background: var(--cartoes-bg);
+  color: var(--body);
+  padding: 1.5rem;
+  padding-bottom: 0;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.cartao-img {
+  max-width: 300px;
+  max-height: 250px;
+  border-radius: 1rem;
+}
+
+.cartao-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem 10rem;
+}
+
+.valores {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+hr {
+  border-color: var(--body);
+  width: 90%;
+}
+
+.transacoes {
+  background: var(--header);
+  color: var(--body);
+  width: 100%;
+}
+
+.transacao {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cifrao {
+  width: 48px;
+  padding: 0.2rem;
+  text-align: center;
+  align-self: center;
+  border-radius: 8px;
+  background: var(--vermelho);
+}
+
+.cifrao img {
+  width: 20px;
+  height: 20px;
+}
+
+.transacoes .title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.infos {
+  display: flex;
+}
+
+.description {
+  padding: 0 1rem;
+}
+
+.dots {
+  cursor: pointer;
+}
+
+@media (max-width: 1500px) {
+  .info {
+    padding: 1rem 1rem;
+  }
+}
+
+@media (max-width: 1220px) {
+  .cartao {
+    max-width: 400px;
+    height: 300px;
+  }
+
+  .cartao-img {
+    max-width: 200px;
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content {
+    display: grid;
+  }
+
+  .actions {
+    margin-bottom: 1rem;
+  }
+
+  .summary {
+    padding: 1rem;
+  }
+
+  .summary button {
+    max-width: 350px;
+  }
+
+  .info {
+    max-width: 350px;
+  }
+
+  .cartao {
+    display: grid;
+    min-width: 200px;
+    width: 350px;
+    height: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .cartao .title {
+    font-size: 1rem;
+  }
+
+  .cartao .cartao-header {
+    display: grid;
+  }
+
+  .cartao .valores {
+    display: grid;
+    font-size: 1rem;
+  }
+
+  .cartao .button {
+    width: 100px;
+  }
+
+  .transacoes {
+    width: 375px;
+  }
+}

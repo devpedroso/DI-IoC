@@ -1,0 +1,74 @@
+:root {
+  --laranja: #ffa500;
+  --cartoes-bg: RGBA(48, 11, 56, 0.5);
+  --vermelho: red;
+  --verde: #00a000;
+  --body: #ffffff;
+  --header: #343a40;
+  --font-size: 16px;
+  --font-poppins: "Poppins", sans-serif;
+  --width: 1366px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  color: var(--text);
+  font-size: var(--font-size);
+  font-family: var(--font-poppins);
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-poppins);
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+section,
+ul {
+  margin: 0;
+}
+
+strong {
+  font-family: var(--font-poppins);
+  font-weight: 700;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}

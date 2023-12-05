@@ -1,0 +1,157 @@
+@import "reset.css";
+
+.limiter {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.content-header {
+  display: flex;
+  justify-content: center;
+  background-color: var(--header);
+  height: 80px;
+}
+
+.header {
+  position: relative;
+  width: calc(98rem);
+}
+
+#ponto {
+  position: absolute;
+  top: 2.7rem;
+  left: 8.5rem;
+  background: var(--body);
+  width: 8px;
+  height: 8px;
+  border-radius: 16px;
+}
+
+#logo {
+  cursor: pointer;
+  height: 100%;
+  padding: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: var(--header);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: calc(100vh - 80px);
+  width: calc(128rem);
+}
+
+#img-content {
+  max-width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.description {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  opacity: 0.8;
+  border-top-right-radius: 24px;
+  background-color: var(--body);
+}
+
+.text {
+  padding: 0 6rem;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  color: var(--body);
+  background-color: var(--header);
+  height: 100%;
+}
+
+.opacity {
+  opacity: 0.6;
+}
+
+.esqueceu-senha {
+  text-align: right;
+  padding-bottom: 1rem;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.esqueceu-senha:hover {
+  filter: brightness(0.1);
+}
+
+.sociais {
+  display: grid;
+  text-align: center;
+  gap: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.cadastrar {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#cadastre-se {
+  text-align: center;
+  cursor: pointer;
+  color: var(--laranja);
+  transition: filter 0.2s;
+  text-decoration: none;
+}
+
+#cadastre-se:hover {
+  filter: brightness(0.9);
+}
+
+#entrar {
+  color: var(--body);
+}
+
+@media (max-width: 1200px) {
+  .description {
+    font-size: 0.8rem;
+  }
+
+  .container {
+    padding-bottom: 2rem;
+  }
+
+  .text {
+    padding: 0 3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .description,
+  .container {
+    border-radius: 0;
+  }
+
+  .description {
+    padding: 2rem 1rem;
+    order: 2;
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
