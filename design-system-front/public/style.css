@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* remove horizontal scrollbar da página */
+}
+
+.container {
+  width: 1366px; /* limita espaço da tela */
+  margin: 0 auto; /* centralizar conteudo */
+}
+
+.limit {
+  width: 100%; /* tamanho da tela */
+  overflow: hidden; /* não deixar o conteudo passar do limite */
+}
+
+.list {
+  display: flex; /* display para grid */
+  gap: 16px; /* espaço entre itens */
+  flex-wrap: wrap; /* queda de linha caso bate o tamanho maximo */
+  justify-content: space-between; /* conteudo ficar de ponta a ponta */
+}
+
+.item {
+  width: 380px; /* tamanho do item */
+  height: 300px; /* tamanho do item */
+  background: linear-gradient(180deg, #6DE4EA 0%, #075EB0 100%), #F3F5F9; /* fundo do item */
+}
+
+@media (max-width: 1366px) {
+  .list {
+    width: 1366px; /* tamanho da tela */
+    flex-wrap: nowrap; /* não queda de linha */
+    justify-content: flex-start; /* inicia conteudo a esquerda */
+    padding: 0 16px; /* espaço para as laterais */
+  }
+
+  .limit {
+    width: 100vw; /* tamanho da tela */
+    overflow-x: scroll; /* permite rolar o conteudo */
+    padding-bottom: 16px;
+  }
+}
