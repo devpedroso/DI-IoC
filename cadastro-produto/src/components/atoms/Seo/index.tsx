@@ -5,7 +5,7 @@ interface SeoProps {
   description?: string;
 }
 
-const Seo = ({ title = 'valeu', description = '' }: SeoProps) => {
+const Seo = ({ title = 'Cadastro de Produto', description = '' }: SeoProps) => {
   const metaTitle = title;
   const metaDescription = description;
 
