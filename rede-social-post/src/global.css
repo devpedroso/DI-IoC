@@ -9,9 +9,9 @@
   --gray-900: #121214;
 
   --green-500: #00875f;
-  --green-300: #00B37E;
+  --green-300: #00b37e;
 
-  --red-500: #F75A68;
+  --red-500: #f75a68;
 }
 
 :focus {
@@ -31,8 +31,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-body, input, textarea, button {
-  font-family: 'Poppins', sans-serif;
+body,
+input,
+textarea,
+button {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
