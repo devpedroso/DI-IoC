@@ -38,7 +38,7 @@ const Drag = forwardRef(function Drag(props: any, ref: any) {
 
     const photoToDelete = fileList.find((image) => image?.id === file.id);
 
-    if (photoToDelete.id) {
+    if (photoToDelete?.id) {
       setPhotosToDelete([...photosToDelete, photoToDelete.id]);
     }
   };
