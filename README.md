@@ -4,4 +4,4 @@ Alguns dos projetos pessoais e também parte de trabalhos já feitos por mim heh
 # Autor
 Filipe Pedroso da Silva
 
-https://www.linkedin.com/in/filipe-pedroso/
+<a target="_blank">https://www.linkedin.com/in/filipe-pedroso/</a>
