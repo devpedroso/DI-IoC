@@ -2,12 +2,12 @@
 
 A aplicação consiste em uma tela de cadastro de produto para ecommerce ou marketplace. O design foi desenvolvido por mim com referências no marketplace do facebook, OLX e outras aplicações web que utilizam padrões de UX/UI já consolidadas no mercado.
 
-## Layout desktop 🖥️
+## 🖥️ Layout desktop 
 ![product-registration-desktop](https://github.com/PedrosoL/Portifolio/assets/47677411/ebea7011-2076-4e1c-a37f-af31bbc0d028)
-## Layout mobile 📱
+## 📱 Layout mobile 
 ![product-registration-mobile](https://github.com/PedrosoL/Portifolio/assets/47677411/57a1d133-06fa-47ee-a8ba-257cfdab486a)
 
-## Tecnologias utilizadas ⚒️
+## ⚒️ Tecnologias utilizadas
 <table>
   <tr>
     <th>React Js</th>
@@ -26,7 +26,7 @@ A aplicação consiste em uma tela de cadastro de produto para ecommerce ou mark
 - Foi utilizado JSON SERVER para simular uma API REST para persistência dos dados.
 - Como arquitetura de projeto front foi utilizado o Atomic Design
 
-## Como executar o projeto 🚀
+## 🚀 Como executar o projeto
 Pré-requisitos: npm/yarn
 
 ```bash
