@@ -8,7 +8,7 @@ No app o paciente possui um histórico de suas consultas e exames, e quais serã
 
 O médico possui uma relação de todos os seus pacientes e um histórico de atendimentos que pode ser filtrado por paciente. Ele também consegue controlar quais serão seus próximos atendimentos.
 
-⚒️ Tecnologias utilizadas
+## ⚒️ Tecnologias utilizadas
 <table>
   <tr>
     <th>ReactJs</th>
@@ -71,4 +71,6 @@ Como doutor(a):
   email: userfive@email.com
   senha: admin
 ```
+
+### Observação
 Instale um emulador de android em sua máquina, ou instale o expo em seu celular para rodar o proejeto. Para rodar pelo aplicativo do expo é necessário estar em uma rede local.
