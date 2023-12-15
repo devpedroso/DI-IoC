@@ -8,6 +8,10 @@ No app o paciente possui um histórico de suas consultas e exames, e quais serã
 
 O médico possui uma relação de todos os seus pacientes e um histórico de atendimentos que pode ser filtrado por paciente. Ele também consegue controlar quais serão seus próximos atendimentos.
 
+### Jornada paciente e médico
+![paciente](https://github.com/devpedroso/Portifolio/assets/47677411/fc5675f5-12aa-477a-a721-6fe07048e893)
+![doutor](https://github.com/devpedroso/Portifolio/assets/47677411/0432edde-950c-4b50-bcaf-471de834507c)
+
 ## ⚒️ Tecnologias utilizadas
 <table>
   <tr>
