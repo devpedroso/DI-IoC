@@ -35,17 +35,29 @@ Na raíz do projeto, execute o comando:
 ```
 Garanta também que a Web API esteja rodando.
     
-## Utilizando a aplicação
-
-Para realizar o login, utilize uma das credenciais abaixo:
+## 🚀 Como executar o projeto
+Pré-requisitos: npm/yarn
 
 ```bash
-Como doutor(a)
-  email: laura.rocha@urologycenter.com
+# clonar repositório
+git clone https://github.com/devpedroso/Portifolio.git
+
+# entrar na pasta do projeto front end
+cd product-registration
+
+# instalar dependências
+npm install
+
+# executar o projeto
+npx expo start
+
+# Utilize as credências abaixo para fazer login
+Como paciente:
+  email: userone@email.com
   senha: admin
 
-Como paciente:
-  email: camila.costa@gmail.com
+Como doutor(a)
+  email: userfive@email.com
   senha: admin
 ```
 
