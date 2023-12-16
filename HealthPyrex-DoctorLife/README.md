@@ -1,7 +1,7 @@
 
 # RocketPyrex - Doctor Life Mobile APP
 
-## Sobre a aplicação
+## 📝 Sobre a aplicação
 Aplicativo mobile desenvolvido para gerenciamento de histórico e cadastro de consultas para médicos e pacientes.
 
 No app o paciente possui um histórico de suas consultas e exames, e quais serão os próximos atendimentos e exames a serem realizados. O paciente também pode realizar o cadastro de uma nova consulta, podendo selecionar qual médico e horário ele deseja se consultar.
@@ -65,7 +65,7 @@ No projeto do Mobile APP, navegue até a pasta services e, no arquivo api.ts, mu
 ![URI gerada pelo Ngrok](https://cdn.discordapp.com/attachments/945474061797056513/1177441245111537694/image.png?ex=6572849c&is=65600f9c&hm=a2c97b94c63fb5827966f2f70a7e2426747643a95d93757c7ca0918ed8b35c72&)
 
 
-### Utilize as credências abaixo para fazer login
+#### Utilize as credências abaixo para fazer login
 ```bash
 Como paciente:
   email: userone@email.com
@@ -76,5 +76,5 @@ Como doutor(a):
   senha: admin
 ```
 
-### Observação
+### 👀 Observação
 Instale um emulador de android em sua máquina, ou instale o expo em seu celular para rodar o proejeto. Para rodar pelo aplicativo do expo é necessário estar em uma rede local.
