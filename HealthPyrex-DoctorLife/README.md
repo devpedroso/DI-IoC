@@ -1,10 +1,9 @@
 
 # RocketPyrex - Doctor Life Mobile APP
 
-## Sobre a aplicação
+## 📝 Sobre a aplicação
 Aplicativo mobile desenvolvido para gerenciamento de histórico e cadastro de consultas para médicos e pacientes.
 
-<<<<<<< Updated upstream
 No app o paciente possui um histórico de suas consultas e exames, e quais serão os próximos atendimentos e exames a serem realizados. O paciente também pode realizar o cadastro de uma nova consulta, podendo selecionar qual médico e horário ele deseja se consultar.
 
 O médico possui uma relação de todos os seus pacientes e um histórico de atendimentos que pode ser filtrado por paciente. Ele também consegue controlar quais serão seus próximos atendimentos.
@@ -32,34 +31,8 @@ O médico possui uma relação de todos os seus pacientes e um histórico de ate
 - Foi utilizado JSON SERVER para simular uma API REST para persistência dos dados.
 - Como arquitetura de projeto front foi utilizado o Atomic Design
 
-=======
-<br/>
-
-## ⚒️ Tecnologias utilizadas
-<table>
-  <tr>
-    <th>ReactJs</th>
-    <th>React Native</th>
-    <th>Typescript</th>
-    <th>Expo</th>
-  </tr>
-  <tr>
-    <td>18.2.0</td>
-    <td>0.72.6</td>
-    <td>5.0.2</td>
-    <td>49.0.11</td>
-  </tr>
-</table>
-
-- Foi utilizado JSON SERVER para simular uma API REST para persistência dos dados.
-- Como arquitetura de projeto front foi utilizado o Atomic Design
-
-<br/>
-
->>>>>>> Stashed changes
 ## 🚀 Como executar o projeto
 Pré-requisitos: npm/yarn
-
 
 ```bash
 # clonar repositório
@@ -92,11 +65,7 @@ No projeto do Mobile APP, navegue até a pasta services e, no arquivo api.ts, mu
 ![URI gerada pelo Ngrok](https://cdn.discordapp.com/attachments/945474061797056513/1177441245111537694/image.png?ex=6572849c&is=65600f9c&hm=a2c97b94c63fb5827966f2f70a7e2426747643a95d93757c7ca0918ed8b35c72&)
 
 
-<<<<<<< Updated upstream
-### Utilize as credências abaixo para fazer login
-=======
-## Utilize as credências abaixo para fazer login
->>>>>>> Stashed changes
+#### Utilize as credências abaixo para fazer login
 ```bash
 Como paciente:
   email: userone@email.com
@@ -105,11 +74,7 @@ Como paciente:
 Como doutor(a):
   email: userfive@email.com
   senha: admin
-<<<<<<< Updated upstream
 ```
 
-### Observação
+### 👀 Observação
 Instale um emulador de android em sua máquina, ou instale o expo em seu celular para rodar o proejeto. Para rodar pelo aplicativo do expo é necessário estar em uma rede local.
-=======
-```
->>>>>>> Stashed changes
