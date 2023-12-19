@@ -29,8 +29,8 @@ O médico possui uma relação de todos os seus pacientes e um histórico de ate
 </table>
 
 - Foi utilizado JSON SERVER para simular uma API REST para persistência dos dados.
-- Como arquitetura de projeto front foi utilizado o Atomic Design
-
+- Como arquitetura de projeto front foi utilizado o [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/)
+  
 ## 🚀 Como executar o projeto
 Pré-requisitos: npm/yarn
 

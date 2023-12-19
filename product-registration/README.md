@@ -24,7 +24,7 @@ A aplicação consiste em uma tela de cadastro de produto para ecommerce ou mark
 </table>
 
 - Foi utilizado JSON SERVER para simular uma API REST para persistência dos dados.
-- Como arquitetura de projeto front foi utilizado o Atomic Design
+- Como arquitetura de projeto front foi utilizado o [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/)
 
 ## 🚀 Como executar o projeto
 Pré-requisitos: npm/yarn
