@@ -17,11 +17,7 @@ Inspirado em plataformas como Udemy, Alura, Rocketseat, entre outras. Onde temos
 git clone https://github.com/devpedroso/Portifolio.git
 
 # entrar na pasta do projeto front end
-cd rede-social-post
-
-# instalar dependências
-npm i
-
-# executar o projeto
-npm run dev
+cd site-cursos
 ```
+
+### -> Abra o arquivo ***index.html*** em seu navegador.
