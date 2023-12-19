@@ -70,7 +70,7 @@ export function NewTransectionModal({ isOpen, onRequestClose }: ModalProps) {
           type="number"
           placeholder="Valor"
           value={amount}
-          onChange={(event) => setAmount(Number(event.target.value))}
+          onChange={(event) => setAmount(parseInt(event.target.value))}
         />
 
         <TransectionTypeContainer>
