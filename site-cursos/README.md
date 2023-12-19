@@ -1,4 +1,4 @@
-# Plataforma de cursos gratuitos
+# Plataforma de cursos
 
 Inspirado em plataformas como Udemy, Alura, Rocketseat, entre outras. Onde temos uma aba com cursos gratuitos, essa paginá foi criada com esse intuito, apresentar alguns cursos gratuitos disponiveis no youtube.
 
