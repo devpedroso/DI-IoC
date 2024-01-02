@@ -19,7 +19,7 @@ Pré-requisitos: [Baixar .NET Core SDK](https://dotnet.microsoft.com/pt-br/downl
 
 ```bash 
 # clonar repositório
-git clone https://github.com/devpedroso/Portifolio.git
+git clone https://github.com/devpedroso/DI-IoC.git
 
 # entrar na pasta do projeto front end
 cd DI-IoC/exemplo1
